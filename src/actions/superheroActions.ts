@@ -21,7 +21,7 @@ export const getSuperheroTeam = () => async (dispatch: Dispatch<SuperheroDispatc
                 type: SUPERHERO_LOADING
             });
     
-            const res = await axios.get(`api/${process.env.REACT_APP_API_KEY}/${id}`);
+            const res = await axios.get(`api/5891045344299739/${id}`);
             dispatch({
                 type: SUPERHERO_SUCCESS,
                 payload: res.data
